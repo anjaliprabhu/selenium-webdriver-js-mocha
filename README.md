@@ -7,6 +7,7 @@
     ```
     $ brew install node
     ```
+
     Download chrome or firefox driver and set the PATH
 
     Example: In mac
@@ -16,14 +17,15 @@
 	* Install Node modules
 
     ```
-  	$ npm install
-  	```
+    $ npm install
+    ```
 
 ### For Running Tests
 
-    ```
-  	$ npm test
-  	```
+Execute the following command to run the tests
+
+    $ npm test
 
 ### For changing config
-    In config folder you can configure the JSON file for test data (Example: userRegistration.json has all test data for user registration)
+   In config folder you can configure the JSON file for test data
+   Example: userRegistration.json has all test data for user registration
