@@ -1,0 +1,23 @@
+{
+	"implicitTimeout": 10000,
+	"explicitTimeout": 5000,
+	"url": "https://www.personalcapital.com/",
+	"title": "Financial Software and Wealth Management | Personal Capital",
+	"browserType": "chrome",
+	"validUserRegistration":{
+		"username": "test@personalcapital.com",
+		"passwd": "TEST-Password-123",
+		"phoneNumber":"408-714-1234"
+	},
+	"invalidUserRegistration1":{
+		"username": "test-invalid",
+		"passwd": "TEST-Password",
+		"phoneNumber":"000"
+	},
+	"errorMessagesExpected":{
+		"invalidUsername": "Must be a valid email address",
+		"invalidPassword": "8-25 characters, with both letters and numbers",
+		"invalidPhoneNo": "Please enter a valid 10 digit phone number"
+	}
+
+}
